@@ -1,0 +1,145 @@
+.w-20{
+    width:20%;
+}
+.h-2{
+height: 2px;
+}
+.circle{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(-60px);
+    margin: 0 auto;
+}
+.circle-abs{
+    height:140px;
+    width:140px;
+    border-radius: 50%;
+    text-align: center;
+    transform: translateY(-70px);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.height-x{
+    height:220px;
+    /*width:200px;*/
+}
+.bg-warning {
+    background-color: orangered!important;
+}
+.bg-yellow {
+    background-color: #eded00 !important;
+}
+.border-4{
+    border:4px solid white!important;
+}
+.font-size-140{
+    font-size: 250%;
+}
+
+.border-3 {
+    border: 3px solid #007bff!important;
+}
+.center{
+    margin: 0 auto!important;
+}
+.hover{
+
+}
+.hover:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+    transition: all 0.8s;
+}
+.px-round{
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+
+
+/*icons*/
+
+.icon {
+    display: inline-block;
+    width: 125px;
+    height: 55px;
+    mask-repeat:no-repeat;
+    mask-size: 90%;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 90%;
+    -webkit-mask-position: center center;
+    background-color: #494850;
+
+}
+.icon-sm {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    mask-repeat:no-repeat;
+    mask-size: 90%;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 90%;
+    -webkit-mask-position: center center;
+    background-color: #494850;
+
+}
+
+
+
+.icon-heart{
+    mask-image: url(../icons/heartbeat-line-clipart-png-6.png);
+    -webkit-mask-image:  url(../icons/heartbeat-line-clipart-png-6.png) ;
+}
+.icon-brand{
+    mask-image: url(../icons/slack-brands.svg);
+    -webkit-mask-image: url(../icons/slack-brands.svg);
+}
+.icon-cal{
+    mask-image: url(../icons/calendar.svg);
+    -webkit-mask-image:url(../icons/calendar.svg);
+}
+.icon-pin{
+    mask-image: url(../icons/pin.svg);
+    -webkit-mask-image:url(../icons/pin.svg);;
+}
+.icon-speaker{
+    mask-image: url(../icons/speaker.png);
+    -webkit-mask-image: url(../icons/speaker.png);;
+}
+.icon-book{
+    mask-image: url(../icons/book.png);
+    -webkit-mask-image: url(../icons/book.png);;
+}
+.icon-gender{
+    mask-image: url(../icons/gender-symbol-gender-equality-social-equality-computer-icons-symbol-png-clip-art.png);
+    -webkit-mask-image: url(../icons/gender-symbol-gender-equality-social-equality-computer-icons-symbol-png-clip-art.png);}
+.icon-growth{
+    mask-image: url(../icons/growth.png);
+    -webkit-mask-image: url(../icons/growth.png);
+}
+.icon-earth{
+    mask-image: url(../icons/earth-icon-pack-63.png);
+    -webkit-mask-image: url(../icons/earth-icon-pack-63.png);
+}
+
+/*media*/
+
+@media (min-width: 0) and (max-width:480px ){
+    iframe{
+        width: 99%;
+    }
+    .hover{
+        transform: translateX(29px);
+    }
+    .center{
+        margin: 35px auto!important;
+    }
+
+
+}
